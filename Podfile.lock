@@ -1,0 +1,39 @@
+PODS:
+  - BoringSSL-GRPC (0.0.5):
+    - BoringSSL-GRPC/Implementation (= 0.0.5)
+    - BoringSSL-GRPC/Interface (= 0.0.5)
+  - BoringSSL-GRPC/Implementation (0.0.5):
+    - BoringSSL-GRPC/Interface (= 0.0.5)
+  - BoringSSL-GRPC/Interface (0.0.5)
+  - "gRPC-C++ (1.25.0)":
+    - "gRPC-C++/Implementation (= 1.25.0)"
+    - "gRPC-C++/Interface (= 1.25.0)"
+  - "gRPC-C++/Implementation (1.25.0)":
+    - "gRPC-C++/Interface (= 1.25.0)"
+    - gRPC-Core (= 1.25.0)
+  - "gRPC-C++/Interface (1.25.0)"
+  - gRPC-Core (1.25.0):
+    - gRPC-Core/Implementation (= 1.25.0)
+    - gRPC-Core/Interface (= 1.25.0)
+  - gRPC-Core/Implementation (1.25.0):
+    - BoringSSL-GRPC (= 0.0.5)
+    - gRPC-Core/Interface (= 1.25.0)
+  - gRPC-Core/Interface (1.25.0)
+
+DEPENDENCIES:
+  - "gRPC-C++"
+
+SPEC REPOS:
+  trunk:
+    - BoringSSL-GRPC
+    - "gRPC-C++"
+    - gRPC-Core
+
+SPEC CHECKSUMS:
+  BoringSSL-GRPC: 8f2c6b5fbae71d1f3aabb787a52fd4929d1eef33
+  "gRPC-C++": c1cd93b94d6d7146c8fa626f8c7e4f5ad8d97ec5
+  gRPC-Core: 76552aeeae7c42172d52224cc6f3cf70bff577f5
+
+PODFILE CHECKSUM: d8ceb0c0871961cdae68b2f93711b41c6c9b21b7
+
+COCOAPODS: 1.8.4
