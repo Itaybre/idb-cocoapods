@@ -1,3 +1,12 @@
+## Requirements
+
+This project requires the companion module `idb`, you can install it from the original [repo](https://github.com/facebook/idb)
+
+Install with pip:
+```
+pip3.6 install fb-idb
+```
+
 ## Building from Source
 
 ```
