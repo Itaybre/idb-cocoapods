@@ -58,7 +58,6 @@
 		F4C59F0D23B65DB900F859E3 /* FBControlCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C59F0C23B65DB900F859E3 /* FBControlCore.framework */; };
 		F4C59F0F23B65DB900F859E3 /* FBDeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C59F0E23B65DB900F859E3 /* FBDeviceControl.framework */; };
 		F4C59F1123B65DB900F859E3 /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C59F1023B65DB900F859E3 /* FBSimulatorControl.framework */; };
-		F4C59F1323B66D0000F859E3 /* Pods_idb_companion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E30C42F5E702854D3106DA4 /* Pods_idb_companion.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -96,7 +95,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F4C59F1323B66D0000F859E3 /* Pods_idb_companion.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,7 +107,6 @@
 		5AAABE0C8E2D33D1ECBB789A /* Pods-idb_companion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idb_companion.release.xcconfig"; path = "Target Support Files/Pods-idb_companion/Pods-idb_companion.release.xcconfig"; sourceTree = "<group>"; };
 		623D9F0B22E40DCB00D9129C /* FBIDBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBIDBLogger.h; sourceTree = "<group>"; };
 		623D9F0C22E40DCB00D9129C /* FBIDBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBIDBLogger.m; sourceTree = "<group>"; };
-		6E30C42F5E702854D3106DA4 /* Pods_idb_companion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idb_companion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECBF5B4A0EAD821CFAAE9A2 /* Pods-idbGRPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idbGRPC.debug.xcconfig"; path = "Target Support Files/Pods-idbGRPC/Pods-idbGRPC.debug.xcconfig"; sourceTree = "<group>"; };
 		AA34E73A228EBF1B0085F93F /* FBIDBStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBIDBStorageManager.m; sourceTree = "<group>"; };
 		AA34E73B228EBF1B0085F93F /* FBIDBStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBIDBStorageManager.h; sourceTree = "<group>"; };
@@ -161,8 +158,6 @@
 		D7D6DFF52265F0DF00B01F14 /* FBiOSTargetStateChangeNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBiOSTargetStateChangeNotifier.m; sourceTree = "<group>"; };
 		E6175110F13CA12A58DF19B2 /* libPods-idbGRPC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idbGRPC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1EB4E708C3D419AA12FBB8 /* libPods-idb_companion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idb_companion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C59F0623B65C5900F859E3 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C59F0823B65C5900F859E3 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C59F0A23B65C5900F859E3 /* FBSimulatorControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSimulatorControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C59F0C23B65DB900F859E3 /* FBControlCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBControlCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C59F0E23B65DB900F859E3 /* FBDeviceControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBDeviceControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,7 +197,6 @@
 				D7D6DF132265DDEC00B01F14 /* Products */,
 				D7D6DF872265DE4E00B01F14 /* Frameworks */,
 				DC91CE43799059F1D02EA375 /* Pods */,
-				F4C59F1523B66D4100F859E3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,8 +215,6 @@
 				F4C59F0C23B65DB900F859E3 /* FBControlCore.framework */,
 				F4C59F0E23B65DB900F859E3 /* FBDeviceControl.framework */,
 				F4C59F1023B65DB900F859E3 /* FBSimulatorControl.framework */,
-				F4C59F0623B65C5900F859E3 /* .framework */,
-				F4C59F0823B65C5900F859E3 /* .framework */,
 				F4C59F0A23B65C5900F859E3 /* FBSimulatorControl.framework */,
 				D7D6DFA42265E76200B01F14 /* libgrpc++.a */,
 				D7D6DFA22265E76200B01F14 /* libgrpc.a */,
@@ -341,14 +333,6 @@
 				5AAABE0C8E2D33D1ECBB789A /* Pods-idb_companion.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F4C59F1523B66D4100F859E3 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				6E30C42F5E702854D3106DA4 /* Pods_idb_companion.framework */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
